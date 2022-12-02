@@ -14,12 +14,6 @@ enum LossDrawWin
   Win = 6
 }
 
-enum PlayerTypes
-{
-  Opponent,
-  Player
-}
-
 class Solution1
 {
   Dictionary<string, RockPaperScissors> RockPaperScissorsDict = new() {
